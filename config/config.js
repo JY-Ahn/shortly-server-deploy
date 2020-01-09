@@ -1,6 +1,6 @@
 module.exports = {
   development: {
-    username: 'junyong',
+    username: 'junyong92',
     password: 'cjdehdls1',
     database: 'shortly_db_deploy',
     port: 3306,
