@@ -13,7 +13,7 @@ const { urls } = require('./models');
 const morgan = require('morgan');
 
 const app = express();
-const port = 3001;
+// const port = 3001;
 
 app.use(
   session({
@@ -69,7 +69,7 @@ app.get('/D*', (req, res) => {
 app.use('/user', userRouter);
 app.use('/links', linksRouter);
 
-app.set('port', port);
+// app.set('port', port);
 app.listen(app.get('port'), () => {
   //console.log(`app is listening in PORT ${app.get('port')}`);
 });
