@@ -6,6 +6,7 @@ module.exports = {
     port: 3306,
     host: 'database-2.cwhf7t2jlg1w.us-east-2.rds.amazonaws.com',
     dialect: 'mysql',
-    logging: false
+    logging: false,
+    use_env_variable: true
   }
 };
