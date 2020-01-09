@@ -29,7 +29,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(
   cors({
     // origin: ['http://localhost:3000'],
-    origin: ['http://shortly-client-deploy.s3-website.ap-northeast-2.amazonaws.com:3001'],
+    origin: ['http://shortly-client-deploy.s3-website.ap-northeast-2.amazonaws.com'],
     methods: ['GET', 'POST'],
     credentials: true
   })
